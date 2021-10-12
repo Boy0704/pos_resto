@@ -1,5 +1,11 @@
 <?php 
 
+function param_get()
+{
+	$url = parse_url($_SERVER['REQUEST_URI']);
+	return $url['query'];
+}
+
 function kirim_sms($no_telp,$pesan)
 {
 	$curl = curl_init();

@@ -29,7 +29,7 @@
         <?php if ($this->session->userdata('level') == 'admin') { ?>
         <li><a href="app"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
         
-        <li><a href="app/pengembangan"><i class="fa fa-clone"></i> <span>Table Reservation</span></a></li>
+        <li><a href="transaksi"><i class="fa fa-clone"></i> <span>Table Reservation</span></a></li>
         <li><a href="app/pengembangan"><i class="fa fa-pencil"></i> <span>Monitor User</span></a></li>
         <li><a href="paket_bermain"><i class="fa fa-quote-left"></i> <span>Paket Bermain</span></a></li>
         <li><a href="member"><i class="fa fa-building-o"></i> <span>Data Member</span></a></li>
